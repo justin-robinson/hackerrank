@@ -17,8 +17,8 @@ The first line contains a single integer, *n*, denoting the number of integers i
 Each line *i* of the *n* subsequent lines contains an integer, *a<sub>i</sub>* , to be added to your list.
 
 ####Constraints
-* 1 <= *n* <= 10<sup>5</sup>
-* 0 <= *a<sub>i</sub>* <= 10<sup>5</sup>
+* 1 ≤ *n* ≤ 10<sup>5</sup>
+* 0 ≤ *a<sub>i</sub>* ≤ 10<sup>5</sup>
 
 ####Output Format
 
@@ -49,9 +49,9 @@ After each new integer is added to the list, print the list's updated median on 
 ####Explanation
 There are *n* = 6 integers, so we must print the new median on a new line as each integer is added to the list:
 1. *list* = {12}, *median* = 12.0
-1. *list* = {12, 4} --> {4, 12}, *median* = (12+4)/2 = 8.0
-1. *list* = {12, 4, 5} --> {4, 5, 12}, *median* = 5.0
-1. *list* = {12, 4, 5, 3} --> {3, 4, 5, 12}, *median* = (4+5)/2 = 4.5
-1. *list* = {12, 4, 5, 3, 8} --> {3, 4, 5, 8, 12}, *median* = 5.0
-1. *list* = {12, 4, 5, 3, 8, 7} --> {3, 4, 5, 7, 8, 12}, *median* = (5+7)/2 = 6.0
+1. *list* = {12, 4} ⟶ {4, 12}, *median* = (12+4)/2 = 8.0
+1. *list* = {12, 4, 5} ⟶ {4, 5, 12}, *median* = 5.0
+1. *list* = {12, 4, 5, 3} ⟶ {3, 4, 5, 12}, *median* = (4+5)/2 = 4.5
+1. *list* = {12, 4, 5, 3, 8} ⟶ {3, 4, 5, 8, 12}, *median* = 5.0
+1. *list* = {12, 4, 5, 3, 8, 7} ⟶ {3, 4, 5, 7, 8, 12}, *median* = (5+7)/2 = 6.0
 
