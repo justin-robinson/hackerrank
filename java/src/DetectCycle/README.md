@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem
+
 A linked list is said to contain a cycle if any node is visited more than once while traversing the list. For example, in the following graph there is a cycle formed when node  points back to node .
 
 ####Function Description
