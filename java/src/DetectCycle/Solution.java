@@ -10,6 +10,9 @@ A Node is defined as:
     }
 */
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Solution {
 
     boolean hasCycle(Node head) {
@@ -34,4 +37,8 @@ public class Solution {
         return false;
     }
 
+    private class Node {
+        int data;
+        Node next;
+    }
 }
